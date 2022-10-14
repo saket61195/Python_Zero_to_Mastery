@@ -1,0 +1,11 @@
+#Data Type
+# int
+# float
+# complex
+# str
+# bool
+# list
+# tuple
+# set
+# dict
+# None
