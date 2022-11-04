@@ -1,0 +1,5 @@
+pip install Flask
+
+flask --app server run
+
+flask --app server --debug run
