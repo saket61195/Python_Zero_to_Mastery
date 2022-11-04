@@ -3,7 +3,7 @@ from email.message import EmailMessage
 
 email = EmailMessage()
 email['from'] = 'Saket Prabhakar'
-email['to'] = 'aspire404@protonmail.com'
+email['to'] = 'p.rabhakar61195@gmail.com'
 email['subject'] = 'This is testing'
 
 email.set_content('i am learning Python and testing again')
