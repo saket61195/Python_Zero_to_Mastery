@@ -1,0 +1,22 @@
+import requests
+from bs4 import BeautifulSoup
+
+res = requests.get('https://news.ycombinator.com/')
+# print(res.text)
+soup = BeautifulSoup(res.text, 'html.parser')
+# print(soup)
+# print(soup.body)
+# print(soup.body.contents)
+# print(soup.find_all('div'))
+# print(soup.find_all('a'))
+# print(soup.title)
+# print(soup.find(id='33369947'))
+links = soup.select('.titleline')
+print(links)
+# print(soup.select('.titleline'))
+# print(soup.select('.titleline')[0])
+subtext = soup.select('.subtext')
+# print(subtext) 
+votes = soup.select('.score')
+# print(votes)
+# print(votes[0].get('id'))
