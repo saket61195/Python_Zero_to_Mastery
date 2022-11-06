@@ -10,7 +10,7 @@
   
   [P04_Decorators](https://github.com/saket61195/Python_Zero_to_Mastery/tree/main/P04_Decorators)
   
-  [P05_Error Handling](https://github.com/saket61195/Python_Zero_to_Mastery/tree/main/P05_Error Handling)
+  [P05_Error_Handling](https://github.com/saket61195/Python_Zero_to_Mastery/tree/main/P05_Error_Handling)
 
   [P06_Generator](https://github.com/saket61195/Python_Zero_to_Mastery/tree/main/P06_Generator)
 
